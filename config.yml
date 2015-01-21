@@ -1,0 +1,25 @@
+config-version: '1.0'
+global: true
+options:
+  redstone: true
+  player: true
+  iron: true
+  wooden: true
+redstone-components:
+- DAYLIGHT_DETECTOR
+- DIODE_BLOCK_OFF
+- DIODE_BLOCK_ON
+- GOLD_PLATE
+- IRON_PLATE
+- LEVER
+- REDSTONE_BLOCK
+- REDSTONE_COMPARATOR_OFF
+- REDSTONE_COMPARATOR_ON
+- REDSTONE_TORCH_OFF
+- REDSTONE_TORCH_ON
+- REDSTONE_WIRE
+- STONE_BUTTON
+- STONE_PLATE
+- TRIPWIRE_HOOK
+- WOOD_BUTTON
+- WOOD_PLATE

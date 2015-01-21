@@ -1,0 +1,26 @@
+name: SyncDoors
+version: 1.1.0
+description: Opens or closes double doors when either side is opened or closed.
+author: y120
+main: com.github.y120.bukkit.syncdoors.SyncDoors
+commands:
+    syncdoors:
+        description: SyncDoors' main command.
+        usage: type /<command>
+        aliases: [sd, sdoors]
+permissions:
+    syncdoors.check:
+        description: Check whether a feature is enabled.
+        default: true
+    syncdoors.reload:
+        description: Reload the configuration.
+        default: op
+    syncdoors.toggle:
+        description: Toggle a feature of SyncDoors, or the entire plugin itself.
+        default: op
+    syncdoors.*:
+        description: Gives access to all SyncDoors commands.
+        children:
+            syncdoors.check: true
+            syncdoors.reload: true
+            syncdoors.toggle: true
